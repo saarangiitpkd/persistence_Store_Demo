@@ -7,7 +7,7 @@ namespace MainApp
     {
         static void Main(string[] args)
         {
-            IStorage storage = new XmlFileStorage();
+            IStorage storage = Factory.StorageFactory();
 
             Console.WriteLine("Enter Action: \"i\" for insert, Enter \"g\" for lookup. ");
 
