@@ -8,6 +8,7 @@ namespace PersistedStorage
 {
     public class Factory 
     { 
+        private 
         public static IStorage StorageFactory ()
         {
             if (File.Exists("dict.txt"))
